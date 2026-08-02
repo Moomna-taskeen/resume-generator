@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const API_URL = "http://localhost:5000/api/generate";
+const API_URL = "https://resume-generator-backend-5eo5.onrender.com/api/generate";
 
 export default function App() {
   const [type, setType] = useState("resume");
